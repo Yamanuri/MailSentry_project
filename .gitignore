@@ -1,3 +1,22 @@
-node_modules/
+# MailSentry Insight - Git Ignore Rules
+
+# 🔐 SECURITY: NEVER PUSH YOUR GMAIL APP PASSWORDS
+config.json
+
+# 📦 Data & Output
+output/
+*.csv
+*.png
+
+# 🐍 Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# 🌐 OS specific
 .DS_Store
 Thumbs.db
